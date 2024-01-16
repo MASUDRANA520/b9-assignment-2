@@ -1,0 +1,233 @@
+body{
+  font-family: 'Mulish', sans-serif;
+  margin: 20px 80px;
+}
+/*nav section*/
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name{
+  color: #131318;
+  font-size: 36px;
+  font-weight: 800; 
+}
+ span{
+  color: #FF5400;
+}
+.name-image{
+  width: 32px;
+}
+
+nav ul{
+  display: flex;
+}
+nav ul li{
+  list-style: none;
+  margin: 0px 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700; 
+}
+nav  a{
+  text-decoration: none;
+  color: #FF5400;
+}
+/*banner section*/
+.banner-container{
+  background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1170px;
+  height: 500px; 
+  border-radius: 16px;
+}
+.banner-title{
+  color: #FFF;
+  font-size: 64px;
+  font-weight: 800; 
+  text-align: center;
+  padding-top: 80px ;
+}
+.banner-description{
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0px auto;
+}
+.banner-input{
+  display: flex;
+  padding: 16px;
+  margin: 80px 200px;
+  align-items: center;
+  gap: 24px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.30)
+}
+input{
+  border-radius: 8px;
+  border-style: none;
+  padding: 10px;
+  gap: 24px;
+}
+.btn-primary {
+  border-radius: 8px;
+  border-style: none;
+  padding: 10px 24px;
+  background-color:#FF5400;
+  text-align: center;
+  color: #FFF;
+}
+
+/*first-section*/
+.first-section{
+  display: flex;
+  margin-top: 50px;
+}
+.tours{
+  width: 50%;
+}
+.tours-img{
+  width: 50%;
+}
+.tours-title{
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800; 
+}
+.tour-description{
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 16px;
+  font-weight: 400; 
+}
+ul{
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 16px;
+  font-weight: 400; 
+}
+/*second-section*/
+.destination-title{
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800; 
+}
+.destination-description{
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400; 
+}
+.images{
+  display: grid;
+  gap: 24px;
+}
+.img1{
+  display: flex;
+  grid-template-columns: 2 1fr;
+  gap:24px;
+}
+.img2{
+  display: flex;
+  grid-template-columns: 3 1fr;
+  gap:24px;
+}
+.img3{
+  display: flex;
+  grid-template-columns: 2 1fr;
+  gap:24px;
+}
+
+/*third-section*/
+.why-title{
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800; 
+}
+.why-description{
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.box{
+  display: flex;
+  gap: 20px;
+}
+.box1{
+  width: 50%;
+  background-color: #FFF;
+  border: 1px solid rgb(207, 198, 198);
+  border-radius: 10px;
+  padding: 20px;
+}
+.box2{
+  width: 50%;
+  background-color: #FFF;
+  border: 1px solid rgb(207, 198, 198);
+  border-radius: 10px;
+  padding: 20px;
+}
+.box3{
+  width: 50%;
+  background-color: #FFF;
+  border: 1px solid rgb(207, 198, 198);
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 20px;
+}
+/*four-section*/
+.deals-title{
+  text-align: center;
+
+}
+.deals-desciption{
+  text-align: center;
+}
+ /*section-five*/
+ .section-five-container{
+  display: flex;
+  margin: 20px;
+ }
+ .section-five{
+  width: 50%;
+ }
+ /*section-six*/
+ .six{
+  display: flex;
+  gap: 20px;
+ }
+ .login{
+  width: 40%;
+  border: 1px solid #FF5400;
+  border-radius: 8px;
+  padding: 20px;
+ }
+ 
+ .form {
+  padding: 20px;
+  font-size: 25px;
+  margin: 8px 8px;
+ }
+ .btn{
+  text-align: center;
+  background-color: #FF5400;
+  border-radius: 8px;
+  border-style: none;
+  padding: 10px 180px;
+  font-size: 25px;
+ }
+ .login-image{
+  width: 60%;
+ }
+ /*footer-section*/
+ .footer-section{
+  text-align: center;
+ }
