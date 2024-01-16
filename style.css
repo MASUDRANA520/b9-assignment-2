@@ -32,7 +32,7 @@ nav ul li{
 }
 nav  a{
   text-decoration: none;
-  color: #FF5400;
+  color:  #424247;
 }
 /*banner section*/
 .banner-container{
@@ -224,12 +224,19 @@ ul{
   margin: 40px 20px;
 }
 /*four-section*/
-.deals-title{
-  text-align: center;
 
+.deals-title{
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800; 
 }
 .deals-desciption{
   text-align: center;
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
 }
  /*section-five*/
  .section-five-container{
@@ -340,6 +347,53 @@ ul{
   text-align: center;
  }
 
-
-  
- 
+ /*responsive*/
+ @media screen and (max-width:600px) {
+  body{
+      margin: 20px 20px;
+  }
+  .name-image,
+  .banner-input,
+  .banner-container,
+  .banner-title,
+  .banner-description
+  .first-section,
+  .tour
+  .tour-img{
+      flex-direction: column;
+  }
+  .first-section{
+      height: 100%;
+  }
+  .banner-title{
+      font-size: 1rem;
+      padding: 32px;
+  }
+  .banner-description{
+      padding: 0;
+      margin-top: 5px;
+  }
+  .banner-form{
+      width: 200px;
+      text-align: center;
+      margin: 10px auto;
+  }
+  .banner-input,
+  .btn-primary{
+      width: 190px;
+      margin-top: 20px;
+  }
+  .first-section{
+      margin: 10px;
+  }
+  .tour{
+      width: 50%;
+  }
+  .tours-img{
+    flex-direction: row;
+      width: 50%;
+  }
+  .first-section-content{
+      width: 100%;
+  }
+}
